@@ -1,0 +1,58 @@
+body {
+    overflow: hidden;
+}
+.ant-divider {
+    background-color: #1c1f25;
+    margin: 5px;
+}
+.ant-timeline-item-tail {
+    border-left: 1px solid #40a9ff;
+}
+
+.datav-canvas {
+    background: url(../../images/datav-canvas-bg.png) repeat;
+}
+.datav-canvas-footer {
+    background: #222528;
+}
+
+.datav-canvas-component {
+    width: 100%;
+    height: 100%;
+}
+/*.datav-canvas-component.action {*/
+/*    border:3px dashed #2483ff;*/
+/*}*/
+
+.ant-modal-content::before {
+     content: '';
+     position: absolute;
+     display: block;
+     top: 0;
+     left: 0;
+     right: 0;
+     width: 100%;
+     height: 2px;
+     background-image: linear-gradient(270deg, #74f0ff 0%, #2681FF 74%);
+}
+.ant-collapse-header .ant-collapse-extra {
+    display: inline;
+}
+
+.span-ellipsis {
+    width: 100%;
+    display: inline-block;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.loading-img {
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}

@@ -1,0 +1,45 @@
+
+@font-face {
+    font-family:'zkgdh';
+    src:url('../fonts/站酷高端黑.ttf');
+}
+
+@font-face {
+    font-family:'fzss';
+    src:url('../fonts/方正书宋简体.ttf');
+}
+
+@font-face {
+    font-family:'fzfs';
+    src:url('../fonts/方正仿宋.ttf');
+}
+
+@font-face {
+    font-family:'fzkt';
+    src:url('../fonts/方正楷体.ttf');
+}
+
+@font-face {
+    font-family:'fzht';
+    src:url('../fonts/方正黑体简体.ttf');
+}
+
+@font-face {
+    font-family:'kzqkhyt';
+    src:url('../fonts/站酷庆科黄油体.ttf');
+}
+
+@font-face {
+    font-family:'kzklt';
+    src:url('../fonts/站酷快乐体.ttf');
+}
+
+@font-face {
+    font-family:'kzwyt';
+    src:url('../fonts/站酷文艺体.ttf');
+}
+
+@font-face {
+    font-family:'kzkht';
+    src:url('../fonts/站酷酷黑体.ttf');
+}

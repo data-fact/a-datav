@@ -1,0 +1,74 @@
+server:
+  port: 8080
+#  ssl:
+#    key-store: classpath:keystore.p12
+#    key-store-type: PKCS12
+#    key-store-password: your_key_store_password
+#    key-alias: your_key_alias
+#eureka:
+#  client:
+#    serviceUrl:
+#      defaultZone: http://10.0.1.145:11111/eureka/
+spring:
+  application:
+    name: apsc-datav
+  datasource:
+    url: jdbc:mysql://localhost:3306/datav?useUnicode=true&characterEncoding=utf8&serverTimezone=GMT
+    username: username
+    password: password
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    max-active: 20
+    max-idle: 8
+    min-idle: 8
+    initial-size: 10
+  resources:
+    static-locations: classpath:/static/,file:${aleiye.upload-locations}
+    cache:
+      cachecontrol:
+        cache-public: true
+        max-age: 1000
+        no-cache: false
+        proxy-revalidate: true
+      period: 1000
+  cache:
+    jcache:
+      config: classpath:jcache.xml
+
+#日志配置
+logging:
+  file:
+    path: log/${spring.application.name}.log
+  level:
+    com.aleiye: info
+
+
+aleiye:
+  upload-locations: /home/datafact/upload/
+  auth-strategy: alone
+#  auth-strategy: cluster
+
+HASOR_DATAQL_DATAWAY: true
+HASOR_DATAQL_DATAWAY_ADMIN: true
+HASOR_DATAQL_DATAWAY_FORCE_DBTYPE: MySQL
+
+#hystrix:
+#  command:
+#    default:
+#      execution:
+#        isolation:
+#          thread:
+#            timeoutInMilliseconds: 20000
+#ribbon:
+#  MaxAutoRetriesNextServer: 0
+#  ConnectTimeout: 3000
+#  ReadTimeout: 15000
+
+#spring cloud admin
+#management:
+#  endpoints:
+#    web:
+#      exposure:
+#        include: "*"
+#  endpoint:
+#    health:
+#      show-details: ALWAYS

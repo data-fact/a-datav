@@ -1,0 +1,17 @@
+/*.datav-event-configer.ant-collapse .ant-collapse-header {*/
+/*    padding: 0 0 6px 16px;*/
+/*}*/
+/*.datav-event-configer.ant-collapse .ant-collapse-header .anticon {*/
+/*    left: 0;*/
+/*}*/
+
+.datav-event-configer.ant-collapse .ant-collapse-content .ant-collapse-content-box {
+    padding: 0 0 0 6px;
+}
+
+.datav-event-configer.ant-collapse .ant-table {
+    font-size: 12px;
+}
+.datav-event-configer.ant-collapse .ant-table-tbody td {
+    padding: 0 0 0 8px;
+}

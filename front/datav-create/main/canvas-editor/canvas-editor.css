@@ -1,0 +1,19 @@
+.iScrollIndicator {
+    background: rgb(80, 80, 80)!important;
+    border: 0px!important;
+}
+.iScrollVerticalScrollbar {
+    display: none;
+}
+.datav-canvas-scale-editor-popover.ant-popover {
+    z-index: 1000!important;
+}
+.datav-canvas-scale-editor-popover .ant-popover-arrow {
+    display: none;
+}
+.datav-canvas-scale-editor-popover .ant-popover-inner-content {
+    padding: 0px;
+}
+.datav-canvas-scale-editor-popover .ant-popover-inner {
+    background-color: transparent;
+}

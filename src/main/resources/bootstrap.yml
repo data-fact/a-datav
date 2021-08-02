@@ -1,0 +1,36 @@
+#server:
+#  eureka:
+#    host: localhost
+#    port: 11111
+#  port: 12441
+#spring:
+#  application:
+#    name: apsc-datav
+#  cloud:
+#    inetutils:
+#      timeout-seconds: 10
+#    config:
+#      profile: prod
+#      discovery:
+#        enabled: true
+#        serviceid: apsc-config-server
+#
+#eureka:
+#  client:
+#    serviceUrl:
+#      defaultZone: http://${server.eureka.host}:${server.eureka.port}/eureka/
+#hystrix:
+#  command:
+#    default:
+#      execution:
+#        isolation:
+#          thread:
+#            timeoutInMilliseconds: 20000
+#ribbon:
+#  MaxAutoRetriesNextServer: 0
+#  ConnectTimeout: 3000
+#  ReadTimeout: 15000
+#
+#HASOR_DATAQL_DATAWAY: true
+#HASOR_DATAQL_DATAWAY_ADMIN: true
+#HASOR_DATAQL_DATAWAY_FORCE_DBTYPE: MySQL

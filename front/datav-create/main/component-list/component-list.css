@@ -1,0 +1,15 @@
+.datav-component-list-tabs.ant-tabs .ant-tabs-tab {
+    padding: 12px 0px;
+}
+.datav-component-list-tabs.ant-tabs .ant-tabs-tabpane {
+    padding-left: 0px!important;
+}
+.datav-component-list-tabs.ant-tabs .ant-tabs-content-holder{
+    margin-left: -20px;
+}
+.datav-component-list-tabs.ant-tabs .ant-tabs-nav-list{
+    width: 30px;
+}
+.datav-component-list-tabs .ant-collapse-content .ant-collapse-content-box{
+    padding: 0;
+}

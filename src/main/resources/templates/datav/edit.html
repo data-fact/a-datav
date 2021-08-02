@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="zh-CN" xmlns:th="http://www.thymeleaf.org">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>可视化</title>
+    <link rel="stylesheet" href="../../css/loader-default.css">
+    <link rel="stylesheet" href="../../css/fonts.css">
+    <link rel="stylesheet" href="../../css/theme/antd.dark.min.css">
+    <link rel="stylesheet" href="../../css/theme/antd-datav-canvas.min.css">
+    <link rel="stylesheet" href="../../css/dnd-grid-layout.css">
+    <link rel="stylesheet" href="../../css/datav/main.css">
+</head>
+
+<body>
+<!--<head th:unless="${param.hideHeader}" th:include="common/header :: header(sourceId='67')"></head>-->
+<div id="app" style="height: 100%;"><div id="loader" class="loader loader-default is-active" half blink data-text="加载中..."></div></div>
+</body>
+<!--<script src="../js/lib/numbro.min.js"></script>-->
+<script src="../../js/lib/echarts.min.js"></script>
+<script src="../../js/lib/echarts-liquidfill.min.js"></script>
+<script src="../../js/lib/echarts-wordcloud.min.js"></script>
+<script src="../../js/lib/echarts-gl.min.js"></script>
+<script src="../../js/lib/uuid.min.js"></script>
+<script src="../../js/lib/iscroll.js"></script>
+<script src="../../js/lib/html2canvas.min.js"></script>
+<script src="../../js/lib/ruler.js"></script>
+<script>
+    window._datav_id='[[${id}]]'
+</script>
+<script th:unless="${param.debug}" src="../../js/common.js"></script>
+<script th:unless="${param.debug}" src="../../js/datav/create.js"></script>
+<script th:if="${param.debug}" src="../../js/dev/common.js"></script>
+<script th:if="${param.debug}" src="../../js/dev/datav/create.js"></script>
+</html>

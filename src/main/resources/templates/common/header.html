@@ -1,0 +1,22 @@
+<header th:fragment="header (sourceId)">
+    <link rel="stylesheet" href="/css/res.css">
+    <link rel="stylesheet" href="/theme/get/nav-header">
+    <style>
+        .a-web-nav-temp {
+            height: 50px;
+            background-color: #262626;
+        }
+        .aside-nav-temp {
+            float: left;
+            width: 63px;
+            height: calc(100% - 50px);
+            background-color: #333;
+        }
+    </style>
+    <div id="_header_nav"></div>
+    <div class="a-web-nav-temp"></div>
+    <div class="aside-nav-temp"></div>
+    <script>window.aleiye_source_id='[[${sourceId}]]'</script>
+    <script src="/js/navigator.js"></script>
+    <script src="/js/lib/SM.js"></script>
+</header>

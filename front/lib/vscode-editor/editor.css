@@ -1,0 +1,31 @@
+.fake-code {
+    font-family: Menlo-Regular,monospace;
+    color: #ccc;
+    padding-left: 8px;
+    height: 28px;
+    line-height: 28px;
+    background: #0e1013;
+    margin-bottom: 0;
+}
+.--keyword {
+    color: #569cd6;
+}
+
+.datav-ds-editor {
+    border: 1px solid;
+    position: relative;
+    overflow: hidden;
+}
+.datav-ds-editor .editor-actions {
+    position: absolute;
+    right: 10px;
+    bottom: 5px;
+    text-align: right;
+    width: 40px;
+    font-size: 12px;
+    z-index: 1;
+}
+
+.overflowingContentWidgets .editor-widget.suggest-widget {
+    width: 240px;
+}

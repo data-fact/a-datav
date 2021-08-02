@@ -1,0 +1,41 @@
+.dnd-grid-layout-container {}
+
+.dnd-grid-layout-block {}
+.dnd-grid-layout-block.active {
+    border:1px dashed #2483ff;
+}
+/*.dnd-grid-layout-block:hover {*/
+/*    border:1px dashed #2483ff;*/
+/*}*/
+
+.dnd-grid-layout-resizer-border {}
+.dnd-grid-layout-resizer-border:hover {
+    border:1px dashed #2483ff;
+}
+.dnd-grid-layout-resizer-border.checked {
+    border:2px dashed #2483ff;
+}
+/*.dnd-grid-layout-resizer-border.active {*/
+/*    border:1px dashed #2483ff;*/
+/*}*/
+
+.dnd-grid-layout-resizer-nw {
+    border-left: 5px solid #2a8ff7;
+    border-top: 5px solid #2a8ff7;
+    cursor: nwse-resize;
+}
+.dnd-grid-layout-resizer-ne {
+    border-right: 5px solid #2a8ff7;
+    border-top: 5px solid #2a8ff7;
+    cursor: nesw-resize;
+}
+.dnd-grid-layout-resizer-sw {
+    border-left: 5px solid #2a8ff7;
+    border-bottom: 5px solid #2a8ff7;
+    cursor: nesw-resize;
+}
+.dnd-grid-layout-resizer-se {
+    border-right: 5px solid #2a8ff7;
+    border-bottom: 5px solid #2a8ff7;
+    cursor: nwse-resize;
+}

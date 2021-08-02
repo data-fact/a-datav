@@ -1,0 +1,4 @@
+/*调色盘输入框文字显示bug*/
+.sketch-picker .flexbox-fix input {
+    color: #000c17;
+}
