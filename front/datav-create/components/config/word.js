@@ -8,7 +8,16 @@
  * Modified By:
  */
 import loadable from '@loadable/component'
-import { FontSizeOutlined,HistoryOutlined,TableOutlined,FundOutlined,ProfileOutlined,FileMarkdownOutlined } from '@ant-design/icons';
+import {
+    FontSizeOutlined,
+    HistoryOutlined,
+    TableOutlined,
+    FundOutlined,
+    ProfileOutlined,
+    FileMarkdownOutlined,
+    InsertRowRightOutlined,
+    AppstoreOutlined
+} from '@ant-design/icons';
 
 export default {
     icon: FontSizeOutlined,
@@ -46,11 +55,23 @@ export default {
                     configer: loadable(() => import(`../words/kv-table/configer`)),
                     renderer: loadable(() => import(`../words/kv-table/renderer`))
                 },
+                scroll_table: {
+                    icon: InsertRowRightOutlined,
+                    descr: '滚动列表',
+                    configer: loadable(() => import(`../words/scoll-table/configer`)),
+                    renderer: loadable(() => import(`../words/scoll-table/renderer`))
+                },
                 markdown: {
                     icon: FileMarkdownOutlined,
                     descr: 'Markdown',
                     configer: loadable(() => import(`../words/markdown/configer`)),
                     renderer: loadable(() => import(`../words/markdown/renderer`))
+                },
+                tag_group: {
+                    icon: AppstoreOutlined,
+                    descr: '标签组',
+                    configer: loadable(() => import(`../words/tag-group/configer`)),
+                    renderer: loadable(() => import(`../words/tag-group/renderer`))
                 }
             }
         }

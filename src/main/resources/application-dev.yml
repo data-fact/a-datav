@@ -1,10 +1,10 @@
 server:
   port: 8080
-#  ssl:
-#    key-store: classpath:keystore.p12
-#    key-store-type: PKCS12
-#    key-store-password: your_key_store_password
-#    key-alias: your_key_alias
+  ssl:
+    key-store: classpath:keystore.p12
+    key-store-type: PKCS12
+    key-store-password: cdewsxzaq321
+    key-alias: tomcat
 #eureka:
 #  client:
 #    serviceUrl:

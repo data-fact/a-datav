@@ -58,9 +58,9 @@ export default function LoginBox(){
             <Link href="/help.html" target="_blank">
                 <QuestionCircleOutlined/>帮助
             </Link>
-            <Link href="https://github.com/data-fact/a-datav" target="_blank">
-                <GithubOutlined/> Github
-            </Link>
+            {/*<Link href="https://github.com/data-fact/a-datav" target="_blank">*/}
+            {/*    <GithubOutlined/> Github*/}
+            {/*</Link>*/}
         </Space>
         <LoginModel visible={loginVisible} onCancel={() => setLoginVisible(false)}/>
         <RegisterModel visible={registerVisible} onCancel={() => setRegisterVisible(false)}/>
